@@ -50,7 +50,7 @@ class TestTenki(unittest.TestCase):
 
 
 """
-テスト用に作成したMockResponseクラスのインスタンスを外部APIを利用したテストに使う方法も教えてもらったので
+テスト用に作成したMockResponseクラスのインスタンスを外部APIを呼び出す関数をテストに使う方法も教えてもらったので
 書いてみました。
 """
 @dataclasses.dataclass(frozen=True)
